@@ -1,3 +1,4 @@
+@-moz-document domain("nga.178.com"), domain("ngabbs.com"), domain("bbs.nga.cn") {
 body {
     --backGround1: #323232;/* 引用，弹窗底色 */
     --backGround2: #282828;/* 评论区交替浅底色 */
@@ -80,13 +81,13 @@ button {background: var(--font-color);}
 .c3 div, .c4 div{background-color: #454545 !important;}
 
 /* 楼层 */
-.block_txt_c0 {background: transparent;}
+/* .block_txt_c0 {background: transparent;} */
 /* 点赞 */
-.block_txt_c2 {background: transparent;}
+/* .block_txt_c2 {background: transparent;} */
 /* 改动 */
-.block_txt_c3 {background: transparent;color: #888;}
+/* .block_txt_c3 {background: transparent;color: #888;} */
 /* 拇指 */
-.white {color:var(--font-color)}
+/* .white {color:var(--font-color)} */
 
 /* 浮动栏 */
 .stdbtn {background:transparent;border: 0px;box-shadow: 0 0 15px -3px black;}
@@ -115,7 +116,7 @@ button {background: var(--font-color);}
 /* POST阴影 */
 #m_posts .forumbox {box-shadow: 0 0 15px -3px black;}
 /* 去除POST右上角3个ICON */
-.small_colored_text_btn , .inlineBlock {display: none  !important;}
+/* .small_colored_text_btn , .inlineBlock {display: none  !important;} */
 /* 去除"改动分割线“ */
 .forumbox .postrow .c2 .subtitle {display: none;}
 /* 正文图片去边框 */
@@ -139,3 +140,4 @@ table , table td{border-color: #454545 !important;}
 
 /* 表情反色 */
 .smile_ac {filter:invert(0.5);}
+  }
